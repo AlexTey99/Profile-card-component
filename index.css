@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background:   hsl(185, 75%, 39%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Kumbh Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+}
+.background-image-top{
+    position: absolute;
+    top: -550px;
+    left: -300px;
+    transform: rotate(100deg);
+}
+.background-image-bottom{
+    position: absolute;
+    top: 360px;
+    left: 550px;
+    transform: rotate(-120deg);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 300px;
+    width: 280px;
+    border-radius: 10px;
+    background: white;
+}
+
+@media screen and(max-width:375px){
+}
+
+.top-image{
+    height: 110px;
+    width: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+.profile-picture{
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+    margin-top: -45px;
+}
+.profile-information-container{
+    display: flex;
+    height: 20px;
+    width: 280px;
+}
+.name-profile{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.age-profile{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.city-container{
+    margin-top: 20px;
+    display: flex;
+    height: 20px;
+    width: 280px;
+}
+.city-profile{
+    color: rgb(167, 167, 167);
+    margin-left: 110px;
+}
+hr{
+    margin-top: 30px;
+    background-color: transparent;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px 0px 50px;
+    margin-top: 10px;
+    width: 280px;
+}
+.text-statistics-container{
+    font-size: 10px;
+    display: flex;
+    margin-right: 7px;
+    justify-content: space-between;
+    padding: 5px 50px 0px 40px;
+    color: rgb(167, 167, 167);
+}
