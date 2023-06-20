@@ -13,7 +13,7 @@ body {
     background: hsl(185, 75%, 39%);
     overflow-x: hidden;
     overflow-y: hidden;
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -35,6 +35,7 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     z-index: 1;
     height: 300px;
     width: 280px;
@@ -55,19 +56,18 @@ body {
     border: 3px solid white;
     height: 80px;
     width: 80px;
-    margin-left: 100px;
     margin-top: -45px;
 }
 
 .profile-information-container {
     display: flex;
+    justify-content: center;
     height: 20px;
-    width: 280px;
+    width: 100%;
 }
 
 .name-profile {
     margin-top: 20px;
-    margin-left: 90px;
 }
 
 .age-profile {
@@ -91,6 +91,7 @@ body {
 hr {
     margin-top: 30px;
     background-color: transparent;
+    width: 100%;
 }
 
 .footer-container {
@@ -105,6 +106,7 @@ hr {
 .text-statistics-container {
     font-size: 10px;
     display: flex;
+    gap: 40px;
     letter-spacing: 1px;
     justify-content: space-between;
     padding: 5px 50px 0px 35px;
